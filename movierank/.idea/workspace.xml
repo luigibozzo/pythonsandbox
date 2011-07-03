@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="movierank.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="movierank.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movierank.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="29" selection-start="582" selection-end="582" vertical-scroll-proportion="0.5510204">
+            <state line="16" column="29" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -50,10 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testDirectoryScanner.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testDirectoryScanner.py">
+      <file leaf-file-name="directory_scanner_test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/directory_scanner_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="8" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mr_file_filter.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mr_file_filter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="8" selection-start="72" selection-end="78" vertical-scroll-proportion="0.13814756">
               <folding />
             </state>
           </provider>
@@ -97,13 +106,14 @@
         <option value="$PROJECT_DIR$/DirectoryScanner.py" />
         <option value="$PROJECT_DIR$/test/tempfilescreator.py" />
         <option value="$PROJECT_DIR$/mr_directory_scanner.py" />
-        <option value="$PROJECT_DIR$/test/testDirectoryScanner.py" />
         <option value="$PROJECT_DIR$/mr_file_name_parser.py" />
         <option value="$PROJECT_DIR$/mr_google_lucky_catcher.py" />
         <option value="$PROJECT_DIR$/mr_file_filter.py" />
         <option value="$PROJECT_DIR$/mr_movie_info.py" />
         <option value="$PROJECT_DIR$/mr_imdb_page_scraper.py" />
         <option value="$PROJECT_DIR$/movierank.py" />
+        <option value="$PROJECT_DIR$/test/testDirectoryScanner.py" />
+        <option value="$PROJECT_DIR$/test/directory_scanner_test.py" />
       </list>
     </option>
   </component>
@@ -149,7 +159,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -168,57 +177,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movierank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movierank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="recentsLimit" value="5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.movierank">
-    <configuration default="false" name="Unittests in testDirectoryScanner.py" type="PythonUnitTestConfigurationType" factoryName="Python's unittest" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="movierank" />
-      <option name="SCRIPT_NAME" value="testDirectoryScanner.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="PUREUNITTEST" value="true" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testDirectoryScanner" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="movierank" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/testDirectoryScanner.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python's unittest.Unittests in DirectoryScannerTest">
     <configuration default="false" name="tempfilescreator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -243,7 +230,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <module name="movierank" />
-      <option name="SCRIPT_NAME" value="testDirectoryScanner.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/directory_scanner_test.py" />
       <option name="CLASS_NAME" value="FolderScannerTest" />
       <option name="METHOD_NAME" value="test_an_empty_folder_scan_returns_an_empty_list" />
       <option name="FOLDER_NAME" value="" />
@@ -265,10 +252,48 @@
       <option name="IS_MODULE_SDK" value="true" />
       <module name="movierank" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/movierank.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="PARAMETERS" value="/tmp/movies" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in directory_scanner_test.py" type="PythonUnitTestConfigurationType" factoryName="Python's unittest" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="movierank" />
+      <option name="SCRIPT_NAME" value="directory_scanner_test.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="PUREUNITTEST" value="true" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in DirectoryScannerTest" type="PythonUnitTestConfigurationType" factoryName="Python's unittest" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="movierank" />
+      <option name="SCRIPT_NAME" value="directory_scanner_test.py" />
+      <option name="CLASS_NAME" value="DirectoryScannerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="PUREUNITTEST" value="true" />
+      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -320,11 +345,11 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python's unittest.Unittests in testDirectoryScanner.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python.testDirectoryScanner" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tempfilescreator" />
-      <item index="3" class="java.lang.String" itemvalue="Python's unittest.Unittests in FolderScannerTest.test_an_empty_folder_scan_returns_an_empty_list" />
-      <item index="4" class="java.lang.String" itemvalue="Python.movierank" />
+      <item index="0" class="java.lang.String" itemvalue="Python.tempfilescreator" />
+      <item index="1" class="java.lang.String" itemvalue="Python's unittest.Unittests in FolderScannerTest.test_an_empty_folder_scan_returns_an_empty_list" />
+      <item index="2" class="java.lang.String" itemvalue="Python.movierank" />
+      <item index="3" class="java.lang.String" itemvalue="Python's unittest.Unittests in directory_scanner_test.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python's unittest.Unittests in DirectoryScannerTest" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -356,20 +381,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="179" y="26" width="1706" height="1148" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32931727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16686603" sideWeight="0.3694779" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16686603" sideWeight="0.312249" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16686603" sideWeight="0.29216868" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16686603" sideWeight="0.3493976" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33032128" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33032128" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32931727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -425,46 +450,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mr_directory_scanner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testDirectoryScanner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mr_file_name_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mr_google_lucky_catcher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="46" selection-start="436" selection-end="443" vertical-scroll-proportion="0.34536892">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mr_file_filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="72" selection-end="78" vertical-scroll-proportion="0.13814756">
-          <folding />
-        </state>
+        <state line="10" column="46" selection-start="436" selection-end="443" vertical-scroll-proportion="0.34536892" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mr_movie_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="40" selection-start="293" selection-end="305" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="40" selection-start="293" selection-end="305" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mr_imdb_page_scraper.py">
@@ -474,11 +467,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mr_directory_scanner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_file_name_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/movierank.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="582" selection-end="582" vertical-scroll-proportion="0.5510204">
+        <state line="16" column="29" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tempfilescreator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="8" selection-start="113" selection-end="113" vertical-scroll-proportion="0.17268446">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/directory_scanner_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mr_file_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="8" selection-start="72" selection-end="78" vertical-scroll-proportion="0.13814756" />
       </provider>
     </entry>
   </component>
