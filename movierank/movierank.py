@@ -6,6 +6,7 @@ from mr_imdb_page_scraper import MrImdbPageScraper
 from mr_movie_info import MrMovieInfo
 import sys
 
+# prova comment
 if __name__ == "__main__":
     directoryScanner = DirectoryScanner()
     fileFilter = MrFileFilter()
