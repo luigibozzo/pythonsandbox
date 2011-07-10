@@ -8,13 +8,16 @@ class DirectoryScanner(object):
         return res
     
     def rec_scan_path(self, aPath, res):
-        print 'scan_path: looking into %s ' % aPath
         try:
             foundFiles = os.listdir(aPath)
-            print 'scan_path: found %s' % foundFiles
+#            print 'scan_path: found {0} files in {1}'.format(len(foundFiles), aPath)
             for f in foundFiles:
                 fullPath = os.path.join(aPath, f)
-                print 'scan_path: processing %s ' % fullPath
+                if os.path.exists(fullPath) == False:
+                    print 'WARN: Could not access file {0} '.format(f)
+                    continue
+
+#                print 'scan_path: processing %s ' % fullPath
                 if os.path.isdir(fullPath):
                     self.rec_scan_path(fullPath, res)
                 else:
